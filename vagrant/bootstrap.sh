@@ -6,3 +6,5 @@ apt-get -y install build-essential zlib1g-dev libssl-dev libreadline-gplv2-dev
 # install ruby as vagrant user
 sudo -u vagrant -H sh -c "/vagrant/ruby-install.sh"
 
+# install bluetooth
+apt-get -y install bluez python-gobject python-dbus
